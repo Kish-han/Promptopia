@@ -10,7 +10,8 @@ const PromptCardList = ({ data, handleTagClick }) => {
         <PromptCard
           key={post._id}
           post={post}
-          title="What is your favorite color?" />
+          handleTagClick={handleTagClick}
+        />
       ))}
     </div>
   )
