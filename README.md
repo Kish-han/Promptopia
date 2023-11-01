@@ -1,41 +1,26 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<h1 align="center" id="title">Promptopia</h1>
 
-## Getting Started
+<p id="description">Promptopia is an innovative web application developed with Next.js Tailwind CSS and MongoDB. This project offers a responsive and user-friendly interface accessible on various devices for effortless interaction with a specific AI tool. Promptopia serves as a prompt finder simplifying the process of generating prompts to engage with your AI tool effectively. Discover a world of creative possibilities as you navigate through Promptopia's intuitive interface. Seamlessly search and generate prompts making your interactions with AI a breeze. With its clean design robust database support and responsive layout Promptopia empowers users to unlock the full potential of their AI tools while enjoying a seamless and user-friendly experience.</p>
 
-First, run the development server:
+<h2>🚀 Demo</h2>
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+[https://promptopia-kish-han.vercel.app](https://promptopia-kish-han.vercel.app)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+<h2>Project Screenshots:</h2>
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+![Screenshot 2023-11-01 234330](https://github.com/Kish-han/Promptopia/assets/100593727/32514275-d99a-4bf7-8830-790991bfde41)
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+![Screenshot 2023-11-02 000036](https://github.com/Kish-han/Promptopia/assets/100593727/a0341d0c-8e4d-4c0e-9286-4f522284a4ab)
 
-## Learn More
+  ![Screenshot 2023-11-02 000105](https://github.com/Kish-han/Promptopia/assets/100593727/2d0b4c4d-4503-489a-85ce-2455bf718918)
 
-To learn more about Next.js, take a look at the following resources:
+  
+<h2>💻 Built with</h2>
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Technologies used in the project:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
-
-To add Authentication
-* add next-auth package
-*imported signin, signout, usesession, getproviders in nav.jsx [Authentication button willbe in na bar soo its imported here]
-*Made a file Provider.jsx and imported a sessionprovider 
-*Then wrapped entire app in a layout.jsx with provider
-*Now provider is required soo we work on backend file in router.js
+*   NextJs
+*   NextAuth
+*   TailwindCss
+*   Mongoose
+*   MongoDB
